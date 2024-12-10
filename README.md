@@ -28,3 +28,50 @@ In the first phase of the project, the following steps were undertaken:
 - A consolidated **DataFrame**.  
 - A **ZIP file** of categorized images.  
 - A **final CSV file** containing all processed data.  
+
+---
+
+### **Text and Symbol Extraction**
+OCR Challenges: Initial attempts using OCR (Tesseract) for text extraction highlighted difficulties in recognizing ancient scripts.
+Contour-based Extraction: A custom contour-detection algorithm was developed to accurately extract individual symbols and textual elements.
+
+---
+
+### **Clustering and Symbol Analysis**
+
+Feature Extraction:
+Utilized Histograms of Oriented Gradients (HOG) to extract key visual features of the symbols.
+
+Clustering Techniques:
+Applied KMeans Clustering to group similar symbols based on extracted features.
+Used Principal Component Analysis (PCA) for dimensionality reduction, enhancing clustering efficiency.
+
+Cluster Organization:
+Symbols were organized into directories corresponding to clusters for structured analysis and storage.
+
+---
+
+### **Comparison with Other Ancient Scripts**
+Compared extracted symbols with scripts like Grantha and Kharosthi using cosine similarity.
+Identified potential linguistic similarities and patterns to aid in the deciphering of the Indus script.
+
+---
+
+### **Outputs**
+
+Data and Metadata:
+A consolidated DataFrame combining images and metadata.
+A ZIP file containing categorized seal images for organized storage.
+A final CSV file with all processed data.
+
+Clustering Results:
+Directories of symbols organized by clusters.
+Analyzed clusters with visualizations of symbol groupings.
+
+Script Comparison Results:
+Analysis Report summarizing similarities between the Indus script and other ancient scripts.
+
+---
+
+### ** Conclusion**
+This project provides a structured methodology to analyze and decode the Indus Valley Civilization's script using modern computational techniques. While the script remains undeciphered, the insights gained from clustering, comparisons, and symbol analysis bring us closer to understanding the language and culture of this ancient civilization.
