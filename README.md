@@ -73,5 +73,5 @@ Analysis Report summarizing similarities between the Indus script and other anci
 
 ---
 
-### ** Conclusion**
+### **Conclusion**
 This project provides a structured methodology to analyze and decode the Indus Valley Civilization's script using modern computational techniques. While the script remains undeciphered, the insights gained from clustering, comparisons, and symbol analysis bring us closer to understanding the language and culture of this ancient civilization.
