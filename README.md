@@ -52,7 +52,7 @@ Symbols were organized into directories corresponding to clusters for structured
 ---
 
 ### **Comparison with Other Ancient Scripts**
-Compared extracted symbols with scripts like Grantha and Kharosthi using cosine similarity.
+Compared extracted symbols with scripts like Egyptian and Kharosthi using cosine similarity.
 Identified potential linguistic similarities and patterns to aid in the deciphering of the Indus script.
 
 ---
